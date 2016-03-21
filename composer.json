@@ -1,0 +1,25 @@
+{
+    "name": "cloudframework-io/cfdatastore",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fran López",
+            "email": "fl@bloombees.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/CloudFramework-io/CFCore.git"
+        }
+    ],
+    "require": {
+        "cloudframework-io/core": "dev-master",
+        "google/apiclient": "^2.0.0@RC"
+    },
+    "autoload": {
+        "psr-4": {
+            "CloudFramework\\Service\\DataStore\\": "src"
+        }
+    }
+}
