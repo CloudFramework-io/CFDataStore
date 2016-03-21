@@ -35,4 +35,5 @@ if(!defined("__DATASTORE_AUTOLOADER__")) {
         }
     }
 }
+defined('DATASTORE_ROOT_PATH') OR define('DATASTORE_ROOT_PATH', __DIR__);
 spl_autoload_register(array('DataStoreAutoloader', 'loadClass'), true, true);
