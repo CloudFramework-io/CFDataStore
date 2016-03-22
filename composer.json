@@ -15,7 +15,7 @@
     ],
     "require": {
         "cloudframework-io/core": "dev-master",
-        "google/apiclient": "^2.0.0@RC"
+        "google/apiclient": "^1.1"
     },
     "autoload": {
         "psr-4": {
